@@ -7,7 +7,7 @@
 ^https?://api\.abema\.io/v\d/ip/check - reject
 
 [Script]
-AbemaTV PC=http-response https://abema.tv/.* requires-body=1,max-size=-1,script-path=https://ruleset.dev/surge3_abematv_web,script-update-interval=86400
+AbemaTV PC=http-response https://abema.tv/.* requires-body=1,max-size=-1,script-path=https://github.com/sxx20001227/Rules/raw/master/Surge/Surge%203/Surge3_abematv_script,script-update-interval=86400
 
 [MITM]
 hostname = %APPEND% *.abema.tv, *.abema.jp, *.abema.io
